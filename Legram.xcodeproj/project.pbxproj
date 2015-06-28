@@ -14,6 +14,18 @@
 		2FC43A4A1B4015C2002AB3EF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FC43A491B4015C2002AB3EF /* Images.xcassets */; };
 		2FC43A4D1B4015C2002AB3EF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FC43A4B1B4015C2002AB3EF /* LaunchScreen.xib */; };
 		2FC43A591B4015C2002AB3EF /* LegramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC43A581B4015C2002AB3EF /* LegramTests.swift */; };
+		2FC43A651B401614002AB3EF /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FC43A621B401614002AB3EF /* Bolts.framework */; };
+		2FC43A661B401614002AB3EF /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FC43A631B401614002AB3EF /* Parse.framework */; };
+		2FC43A671B401614002AB3EF /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FC43A641B401614002AB3EF /* ParseUI.framework */; };
+		2FC43A691B40165C002AB3EF /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FC43A681B40165C002AB3EF /* libsqlite3.dylib */; };
+		2FC43A6B1B401664002AB3EF /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FC43A6A1B401664002AB3EF /* AudioToolbox.framework */; };
+		2FC43A6D1B40166E002AB3EF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FC43A6C1B40166E002AB3EF /* SystemConfiguration.framework */; };
+		2FC43A6F1B401677002AB3EF /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FC43A6E1B401677002AB3EF /* MobileCoreServices.framework */; };
+		2FC43A711B401683002AB3EF /* libstdc++.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FC43A701B401683002AB3EF /* libstdc++.6.dylib */; };
+		2FC43A731B40168D002AB3EF /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FC43A721B40168D002AB3EF /* Social.framework */; };
+		2FC43A751B401696002AB3EF /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FC43A741B401696002AB3EF /* Accounts.framework */; };
+		2FC43A781B403931002AB3EF /* ContentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC43A761B403931002AB3EF /* ContentTableViewCell.swift */; };
+		2FC43A791B403931002AB3EF /* ContentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FC43A771B403931002AB3EF /* ContentTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +50,18 @@
 		2FC43A521B4015C2002AB3EF /* LegramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LegramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FC43A571B4015C2002AB3EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2FC43A581B4015C2002AB3EF /* LegramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegramTests.swift; sourceTree = "<group>"; };
+		2FC43A621B401614002AB3EF /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		2FC43A631B401614002AB3EF /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		2FC43A641B401614002AB3EF /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		2FC43A681B40165C002AB3EF /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		2FC43A6A1B401664002AB3EF /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		2FC43A6C1B40166E002AB3EF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		2FC43A6E1B401677002AB3EF /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		2FC43A701B401683002AB3EF /* libstdc++.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.dylib"; path = "usr/lib/libstdc++.6.dylib"; sourceTree = SDKROOT; };
+		2FC43A721B40168D002AB3EF /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		2FC43A741B401696002AB3EF /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		2FC43A761B403931002AB3EF /* ContentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentTableViewCell.swift; sourceTree = "<group>"; };
+		2FC43A771B403931002AB3EF /* ContentTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContentTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +69,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FC43A751B401696002AB3EF /* Accounts.framework in Frameworks */,
+				2FC43A731B40168D002AB3EF /* Social.framework in Frameworks */,
+				2FC43A711B401683002AB3EF /* libstdc++.6.dylib in Frameworks */,
+				2FC43A6F1B401677002AB3EF /* MobileCoreServices.framework in Frameworks */,
+				2FC43A6D1B40166E002AB3EF /* SystemConfiguration.framework in Frameworks */,
+				2FC43A6B1B401664002AB3EF /* AudioToolbox.framework in Frameworks */,
+				2FC43A691B40165C002AB3EF /* libsqlite3.dylib in Frameworks */,
+				2FC43A671B401614002AB3EF /* ParseUI.framework in Frameworks */,
+				2FC43A661B401614002AB3EF /* Parse.framework in Frameworks */,
+				2FC43A651B401614002AB3EF /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +95,13 @@
 		2FC43A321B4015C2002AB3EF = {
 			isa = PBXGroup;
 			children = (
+				2FC43A741B401696002AB3EF /* Accounts.framework */,
+				2FC43A721B40168D002AB3EF /* Social.framework */,
+				2FC43A701B401683002AB3EF /* libstdc++.6.dylib */,
+				2FC43A6E1B401677002AB3EF /* MobileCoreServices.framework */,
+				2FC43A6C1B40166E002AB3EF /* SystemConfiguration.framework */,
+				2FC43A6A1B401664002AB3EF /* AudioToolbox.framework */,
+				2FC43A681B40165C002AB3EF /* libsqlite3.dylib */,
 				2FC43A3D1B4015C2002AB3EF /* Legram */,
 				2FC43A551B4015C2002AB3EF /* LegramTests */,
 				2FC43A3C1B4015C2002AB3EF /* Products */,
@@ -82,6 +123,8 @@
 				2FC43A401B4015C2002AB3EF /* AppDelegate.swift */,
 				2FC43A421B4015C2002AB3EF /* FirstViewController.swift */,
 				2FC43A441B4015C2002AB3EF /* SecondViewController.swift */,
+				2FC43A761B403931002AB3EF /* ContentTableViewCell.swift */,
+				2FC43A771B403931002AB3EF /* ContentTableViewCell.xib */,
 				2FC43A461B4015C2002AB3EF /* Main.storyboard */,
 				2FC43A491B4015C2002AB3EF /* Images.xcassets */,
 				2FC43A4B1B4015C2002AB3EF /* LaunchScreen.xib */,
@@ -93,6 +136,9 @@
 		2FC43A3E1B4015C2002AB3EF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2FC43A621B401614002AB3EF /* Bolts.framework */,
+				2FC43A631B401614002AB3EF /* Parse.framework */,
+				2FC43A641B401614002AB3EF /* ParseUI.framework */,
 				2FC43A3F1B4015C2002AB3EF /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -198,6 +244,7 @@
 				2FC43A481B4015C2002AB3EF /* Main.storyboard in Resources */,
 				2FC43A4D1B4015C2002AB3EF /* LaunchScreen.xib in Resources */,
 				2FC43A4A1B4015C2002AB3EF /* Images.xcassets in Resources */,
+				2FC43A791B403931002AB3EF /* ContentTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,6 +265,7 @@
 				2FC43A451B4015C2002AB3EF /* SecondViewController.swift in Sources */,
 				2FC43A411B4015C2002AB3EF /* AppDelegate.swift in Sources */,
 				2FC43A431B4015C2002AB3EF /* FirstViewController.swift in Sources */,
+				2FC43A781B403931002AB3EF /* ContentTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,6 +394,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Legram",
+				);
 				INFOPLIST_FILE = Legram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -356,6 +408,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Legram",
+				);
 				INFOPLIST_FILE = Legram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
