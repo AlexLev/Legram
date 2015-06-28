@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FC43A411B4015C2002AB3EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC43A401B4015C2002AB3EF /* AppDelegate.swift */; };
+		2FC43A431B4015C2002AB3EF /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC43A421B4015C2002AB3EF /* FirstViewController.swift */; };
+		2FC43A451B4015C2002AB3EF /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC43A441B4015C2002AB3EF /* SecondViewController.swift */; };
+		2FC43A481B4015C2002AB3EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FC43A461B4015C2002AB3EF /* Main.storyboard */; };
+		2FC43A4A1B4015C2002AB3EF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FC43A491B4015C2002AB3EF /* Images.xcassets */; };
+		2FC43A4D1B4015C2002AB3EF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FC43A4B1B4015C2002AB3EF /* LaunchScreen.xib */; };
+		2FC43A591B4015C2002AB3EF /* LegramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC43A581B4015C2002AB3EF /* LegramTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FC43A531B4015C2002AB3EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FC43A331B4015C2002AB3EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FC43A3A1B4015C2002AB3EF;
+			remoteInfo = Legram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2FC43A3B1B4015C2002AB3EF /* Legram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Legram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FC43A3F1B4015C2002AB3EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FC43A401B4015C2002AB3EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2FC43A421B4015C2002AB3EF /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		2FC43A441B4015C2002AB3EF /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		2FC43A471B4015C2002AB3EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2FC43A491B4015C2002AB3EF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2FC43A4C1B4015C2002AB3EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2FC43A521B4015C2002AB3EF /* LegramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LegramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FC43A571B4015C2002AB3EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FC43A581B4015C2002AB3EF /* LegramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegramTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FC43A381B4015C2002AB3EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FC43A4F1B4015C2002AB3EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FC43A321B4015C2002AB3EF = {
+			isa = PBXGroup;
+			children = (
+				2FC43A3D1B4015C2002AB3EF /* Legram */,
+				2FC43A551B4015C2002AB3EF /* LegramTests */,
+				2FC43A3C1B4015C2002AB3EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FC43A3C1B4015C2002AB3EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FC43A3B1B4015C2002AB3EF /* Legram.app */,
+				2FC43A521B4015C2002AB3EF /* LegramTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FC43A3D1B4015C2002AB3EF /* Legram */ = {
+			isa = PBXGroup;
+			children = (
+				2FC43A401B4015C2002AB3EF /* AppDelegate.swift */,
+				2FC43A421B4015C2002AB3EF /* FirstViewController.swift */,
+				2FC43A441B4015C2002AB3EF /* SecondViewController.swift */,
+				2FC43A461B4015C2002AB3EF /* Main.storyboard */,
+				2FC43A491B4015C2002AB3EF /* Images.xcassets */,
+				2FC43A4B1B4015C2002AB3EF /* LaunchScreen.xib */,
+				2FC43A3E1B4015C2002AB3EF /* Supporting Files */,
+			);
+			path = Legram;
+			sourceTree = "<group>";
+		};
+		2FC43A3E1B4015C2002AB3EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FC43A3F1B4015C2002AB3EF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2FC43A551B4015C2002AB3EF /* LegramTests */ = {
+			isa = PBXGroup;
+			children = (
+				2FC43A581B4015C2002AB3EF /* LegramTests.swift */,
+				2FC43A561B4015C2002AB3EF /* Supporting Files */,
+			);
+			path = LegramTests;
+			sourceTree = "<group>";
+		};
+		2FC43A561B4015C2002AB3EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FC43A571B4015C2002AB3EF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FC43A3A1B4015C2002AB3EF /* Legram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FC43A5C1B4015C2002AB3EF /* Build configuration list for PBXNativeTarget "Legram" */;
+			buildPhases = (
+				2FC43A371B4015C2002AB3EF /* Sources */,
+				2FC43A381B4015C2002AB3EF /* Frameworks */,
+				2FC43A391B4015C2002AB3EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Legram;
+			productName = Legram;
+			productReference = 2FC43A3B1B4015C2002AB3EF /* Legram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2FC43A511B4015C2002AB3EF /* LegramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FC43A5F1B4015C2002AB3EF /* Build configuration list for PBXNativeTarget "LegramTests" */;
+			buildPhases = (
+				2FC43A4E1B4015C2002AB3EF /* Sources */,
+				2FC43A4F1B4015C2002AB3EF /* Frameworks */,
+				2FC43A501B4015C2002AB3EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FC43A541B4015C2002AB3EF /* PBXTargetDependency */,
+			);
+			name = LegramTests;
+			productName = LegramTests;
+			productReference = 2FC43A521B4015C2002AB3EF /* LegramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FC43A331B4015C2002AB3EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Алексей Левинтов";
+				TargetAttributes = {
+					2FC43A3A1B4015C2002AB3EF = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					2FC43A511B4015C2002AB3EF = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 2FC43A3A1B4015C2002AB3EF;
+					};
+				};
+			};
+			buildConfigurationList = 2FC43A361B4015C2002AB3EF /* Build configuration list for PBXProject "Legram" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FC43A321B4015C2002AB3EF;
+			productRefGroup = 2FC43A3C1B4015C2002AB3EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FC43A3A1B4015C2002AB3EF /* Legram */,
+				2FC43A511B4015C2002AB3EF /* LegramTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FC43A391B4015C2002AB3EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FC43A481B4015C2002AB3EF /* Main.storyboard in Resources */,
+				2FC43A4D1B4015C2002AB3EF /* LaunchScreen.xib in Resources */,
+				2FC43A4A1B4015C2002AB3EF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FC43A501B4015C2002AB3EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FC43A371B4015C2002AB3EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FC43A451B4015C2002AB3EF /* SecondViewController.swift in Sources */,
+				2FC43A411B4015C2002AB3EF /* AppDelegate.swift in Sources */,
+				2FC43A431B4015C2002AB3EF /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FC43A4E1B4015C2002AB3EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FC43A591B4015C2002AB3EF /* LegramTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FC43A541B4015C2002AB3EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FC43A3A1B4015C2002AB3EF /* Legram */;
+			targetProxy = 2FC43A531B4015C2002AB3EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2FC43A461B4015C2002AB3EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FC43A471B4015C2002AB3EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2FC43A4B1B4015C2002AB3EF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FC43A4C1B4015C2002AB3EF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FC43A5A1B4015C2002AB3EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2FC43A5B1B4015C2002AB3EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FC43A5D1B4015C2002AB3EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Legram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2FC43A5E1B4015C2002AB3EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Legram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2FC43A601B4015C2002AB3EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LegramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Legram.app/Legram";
+			};
+			name = Debug;
+		};
+		2FC43A611B4015C2002AB3EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LegramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Legram.app/Legram";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FC43A361B4015C2002AB3EF /* Build configuration list for PBXProject "Legram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FC43A5A1B4015C2002AB3EF /* Debug */,
+				2FC43A5B1B4015C2002AB3EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FC43A5C1B4015C2002AB3EF /* Build configuration list for PBXNativeTarget "Legram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FC43A5D1B4015C2002AB3EF /* Debug */,
+				2FC43A5E1B4015C2002AB3EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2FC43A5F1B4015C2002AB3EF /* Build configuration list for PBXNativeTarget "LegramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FC43A601B4015C2002AB3EF /* Debug */,
+				2FC43A611B4015C2002AB3EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FC43A331B4015C2002AB3EF /* Project object */;
+}
