@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F4FF7E41B418A3600D511AA /* LikesUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4FF7E31B418A3600D511AA /* LikesUtility.swift */; };
+		2F58D50F1B43E7E600C20AD3 /* ContentDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F58D50D1B43E7E600C20AD3 /* ContentDetailTableViewController.swift */; };
+		2F6BFC8B1B40859C0033717C /* AddContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6BFC891B40859C0033717C /* AddContentViewController.swift */; };
+		2F6BFC8C1B40859C0033717C /* AddContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F6BFC8A1B40859C0033717C /* AddContentViewController.xib */; };
 		2FC43A411B4015C2002AB3EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC43A401B4015C2002AB3EF /* AppDelegate.swift */; };
 		2FC43A431B4015C2002AB3EF /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC43A421B4015C2002AB3EF /* FirstViewController.swift */; };
 		2FC43A451B4015C2002AB3EF /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC43A441B4015C2002AB3EF /* SecondViewController.swift */; };
@@ -39,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F4FF7E31B418A3600D511AA /* LikesUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LikesUtility.swift; sourceTree = "<group>"; };
+		2F58D50D1B43E7E600C20AD3 /* ContentDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentDetailTableViewController.swift; sourceTree = "<group>"; };
+		2F6BFC891B40859C0033717C /* AddContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddContentViewController.swift; sourceTree = "<group>"; };
+		2F6BFC8A1B40859C0033717C /* AddContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddContentViewController.xib; sourceTree = "<group>"; };
 		2FC43A3B1B4015C2002AB3EF /* Legram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Legram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FC43A3F1B4015C2002AB3EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2FC43A401B4015C2002AB3EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -122,9 +130,13 @@
 			children = (
 				2FC43A401B4015C2002AB3EF /* AppDelegate.swift */,
 				2FC43A421B4015C2002AB3EF /* FirstViewController.swift */,
+				2F58D50D1B43E7E600C20AD3 /* ContentDetailTableViewController.swift */,
+				2F4FF7E31B418A3600D511AA /* LikesUtility.swift */,
 				2FC43A441B4015C2002AB3EF /* SecondViewController.swift */,
 				2FC43A761B403931002AB3EF /* ContentTableViewCell.swift */,
 				2FC43A771B403931002AB3EF /* ContentTableViewCell.xib */,
+				2F6BFC891B40859C0033717C /* AddContentViewController.swift */,
+				2F6BFC8A1B40859C0033717C /* AddContentViewController.xib */,
 				2FC43A461B4015C2002AB3EF /* Main.storyboard */,
 				2FC43A491B4015C2002AB3EF /* Images.xcassets */,
 				2FC43A4B1B4015C2002AB3EF /* LaunchScreen.xib */,
@@ -243,6 +255,7 @@
 			files = (
 				2FC43A481B4015C2002AB3EF /* Main.storyboard in Resources */,
 				2FC43A4D1B4015C2002AB3EF /* LaunchScreen.xib in Resources */,
+				2F6BFC8C1B40859C0033717C /* AddContentViewController.xib in Resources */,
 				2FC43A4A1B4015C2002AB3EF /* Images.xcassets in Resources */,
 				2FC43A791B403931002AB3EF /* ContentTableViewCell.xib in Resources */,
 			);
@@ -262,8 +275,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F58D50F1B43E7E600C20AD3 /* ContentDetailTableViewController.swift in Sources */,
 				2FC43A451B4015C2002AB3EF /* SecondViewController.swift in Sources */,
 				2FC43A411B4015C2002AB3EF /* AppDelegate.swift in Sources */,
+				2F6BFC8B1B40859C0033717C /* AddContentViewController.swift in Sources */,
+				2F4FF7E41B418A3600D511AA /* LikesUtility.swift in Sources */,
 				2FC43A431B4015C2002AB3EF /* FirstViewController.swift in Sources */,
 				2FC43A781B403931002AB3EF /* ContentTableViewCell.swift in Sources */,
 			);
@@ -471,6 +487,7 @@
 				2FC43A5E1B4015C2002AB3EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2FC43A5F1B4015C2002AB3EF /* Build configuration list for PBXNativeTarget "LegramTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +496,7 @@
 				2FC43A611B4015C2002AB3EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
